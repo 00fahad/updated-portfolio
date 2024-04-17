@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: blanchedalmond;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 80vw;
+  height: 100px;
+  font-family: "Pacifico", cursive;
+  text-transform: capitalize;
+ 
+}
+
+
+
+.logo {
+  font-size: 2.5vmax;
+  font-weight: bold;
+  color:#000;
+}
+
+.logo h1{
+  color: brown;
+}
+
+.links {
+  display: flex;
+  gap: 3vw;
+}
+
+
+
+.links a {
+  text-decoration: none;
+  color:#000;
+  font-size: 1.5vmax;
+}
+
+
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.br{
+    width: 80vw;
+    background-color: brown;
+    height: 3px;
+    margin: auto;
+}
+
+.hero-sec{
+    background-color: #deb887;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 5vw;
+    height: 300px;
+    border-radius: 20px;
+    border: none;
+    font-family: "Pacifico", cursive;
+    text-transform: capitalize;
+    }
+
+
+.hero-txt{
+line-height: 3vw;
+
+}
+
+
+.hero-txt h1{
+    font-size: 3.5vmax;
+    font-weight: bold;
+    color: #000;
+   
+}
+
+.hero-txt h1::first-line{
+  color: brown;
+}
+
+
+.hero-txt p{
+    font-size: 1.5vmax;
+    font-weight: bold;
+    color: #000;
+  
+}
+
+.hero-txt a{
+    text-decoration: none;
+    color:ivory;
+    font-size: 1.5vmax;
+  
+}
+
+.hero-txt a:hover{
+    text-decoration: underline;
+    
+}
+
+.hero-img img{
+  width: 15vw;
+  border-radius: 12vw;
+  margin-left: 18vw;
+}
+
+.br2{
+    width: 80vw;
+    background-color: brown;
+    height: 3px;
+    margin-left:10vw;
+    margin-top: 3vw;
+
+}
+
+
+.foot{
+    background-color: #deb887;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3vw;
+    justify-content: center;
+    width: 100vw;
+    height: 300px;
+    border: none;
+    font-size: 2vw;
+    font-family: "Pacifico", cursive;
+    text-transform: capitalize;
+    
+}
+
+.foot-icns{
+  display: flex;
+  gap: 4vw;
+}
+
+.foot-icns i{
+  font-size: 3vmax;
+  text-decoration: none;
+  color: brown;
+}
+
+
+@media  screen and (max-width: 380px) {
+     .logo h1{
+      font-size: 9vmax;
+      color: brown;
+      /* display: flex; */
+      /* justify-content: center; */
+      /* align-items: center; */
+      margin-left: 22vw;
+     }
+
+     .links a{
+       display: none;
+
+     }
+
+     .hero-sec{
+      height: 50dvh;
+      text-align: center;
+      row-gap: 3vw;
+      justify-content: center;
+     }
+
+    .hero-txt h1{
+      font-size: 6vmax;
+    }
+
+    .hero-txt p{
+     margin-top: 3vw;
+     font-size: 3vmax;
+    }
+     
+    .hero-txt a{
+      font-size: 2vmax;
+    }
+
+     .hero-img img{
+       display: none;
+     }
+
+    .foot{
+      height: 60dvh;
+    }
+
+    .foot-txt p{
+      font-size: 5vmax;
+    }
+     
+
+    .foot-icns i{
+      font-size: 4vmax;
+    }
+
+}
