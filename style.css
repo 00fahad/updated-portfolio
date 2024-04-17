@@ -155,7 +155,7 @@ body {
 }
 
 
-@media  screen and (max-width: 380px) {
+@media  screen and (max-width: 135px) {
      .logo h1{
       font-size: 9vmax;
       color: brown;
