@@ -79,11 +79,6 @@ body {
     }
 
 
-.hero-txt{
-line-height: 3vw;
-
-}
-
 
 .hero-txt h1{
     font-size: 3.5vmax;
@@ -167,7 +162,7 @@ line-height: 3vw;
       /* display: flex; */
       /* justify-content: center; */
       /* align-items: center; */
-      margin-left: 22vw;
+      margin-left: 2vw;
      }
 
      .links a{
@@ -204,7 +199,8 @@ line-height: 3vw;
     }
 
     .foot-txt p{
-      font-size: 5vmax;
+      font-size: 4vmax;
+      text-align: center;
     }
      
 
